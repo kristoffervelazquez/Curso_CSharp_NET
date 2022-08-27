@@ -12,7 +12,7 @@ namespace CursoCSharp_10_foreach
 
             foreach (var numero in listaDeNumeros)
             {
-                //Console.WriteLine(numero);
+                WriteLine(numero);
             }
 
             var listaDePersonas = new List<Persona>();
