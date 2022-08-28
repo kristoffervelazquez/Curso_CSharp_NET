@@ -9,9 +9,11 @@ namespace CursoCSharp_metodos
             Console.WriteLine("Hello World!");
         }
 
-        public void EstoEsUnMetod()
+        public void EstoEsUnMetodo()
         {
-            //código    
+            // Codigo
         }
+
+
     }
 }

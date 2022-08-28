@@ -193,27 +193,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modulo16", "Modulo16", "{04
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modulo14_net6", "Modulo14_net6", "{7CC3045C-5AA9-44EE-8AFB-42739FB88801}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoCSharp_01_introduccion_linq_net6", "CursoCSharp_1_introduccion_linq_net6\CursoCSharp_01_introduccion_linq_net6.csproj", "{5CF55630-58D6-4573-98C7-6DE0FE9F86AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoCSharp_01_introduccion_linq_net6", "CursoCSharp_1_introduccion_linq_net6\CursoCSharp_01_introduccion_linq_net6.csproj", "{5CF55630-58D6-4573-98C7-6DE0FE9F86AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoCSharp_02_introduccion_consultas_linq_net6", "CursoCSharp_02_introduccion_consultas_linq_net6\CursoCSharp_02_introduccion_consultas_linq_net6.csproj", "{AC3069D3-5BC9-4DC9-8DEB-792F965D3ED7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoCSharp_02_introduccion_consultas_linq_net6", "CursoCSharp_02_introduccion_consultas_linq_net6\CursoCSharp_02_introduccion_consultas_linq_net6.csproj", "{AC3069D3-5BC9-4DC9-8DEB-792F965D3ED7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoCSharp_03_consultas_expresion_lambda_net6", "CursoCSharp_03_consultas_expresion_lambda_net6\CursoCSharp_03_consultas_expresion_lambda_net6.csproj", "{58187EAE-4FB3-43BB-8441-68DF3AB5973B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoCSharp_03_consultas_expresion_lambda_net6", "CursoCSharp_03_consultas_expresion_lambda_net6\CursoCSharp_03_consultas_expresion_lambda_net6.csproj", "{58187EAE-4FB3-43BB-8441-68DF3AB5973B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoCsharp_04_clausula_from_net6", "CursoCsharp_04_clausula_from_net6\CursoCsharp_04_clausula_from_net6.csproj", "{905BDA19-EC98-43BD-B54C-B5E9EA663991}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoCsharp_04_clausula_from_net6", "CursoCsharp_04_clausula_from_net6\CursoCsharp_04_clausula_from_net6.csproj", "{905BDA19-EC98-43BD-B54C-B5E9EA663991}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoCSharp_05_clausula_join_net6", "CursoCSharp_05_clausula_join_net6\CursoCSharp_05_clausula_join_net6.csproj", "{67DE925C-8089-471F-AE73-3147257A0EAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoCSharp_05_clausula_join_net6", "CursoCSharp_05_clausula_join_net6\CursoCSharp_05_clausula_join_net6.csproj", "{67DE925C-8089-471F-AE73-3147257A0EAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoCSharp_06_clausula_let_net6", "CursoCSharp_06_clausula_let_net6\CursoCSharp_06_clausula_let_net6.csproj", "{E50187FA-5E85-4257-98CA-2A2B49E206F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoCSharp_06_clausula_let_net6", "CursoCSharp_06_clausula_let_net6\CursoCSharp_06_clausula_let_net6.csproj", "{E50187FA-5E85-4257-98CA-2A2B49E206F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoCSharp_07_clausula_where_net6", "CursoCSharp_07_clausula_where_net6\CursoCSharp_07_clausula_where_net6.csproj", "{2BC2F1BA-C5A2-4B64-899B-EEC13690567F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoCSharp_07_clausula_where_net6", "CursoCSharp_07_clausula_where_net6\CursoCSharp_07_clausula_where_net6.csproj", "{2BC2F1BA-C5A2-4B64-899B-EEC13690567F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoCsharp_08_clausula_orderby_net6", "CursoCsharp_08_clausula_orderby_net6\CursoCsharp_08_clausula_orderby_net6.csproj", "{9CF179D7-25F8-4FF9-A505-1ED2A62EF622}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoCsharp_08_clausula_orderby_net6", "CursoCsharp_08_clausula_orderby_net6\CursoCsharp_08_clausula_orderby_net6.csproj", "{9CF179D7-25F8-4FF9-A505-1ED2A62EF622}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoCSharp_09_clausula_select_net6", "CursoCSharp_09_clausula_select_net6\CursoCSharp_09_clausula_select_net6.csproj", "{B734C98F-45B1-4BAE-86DE-F0BE33582134}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoCSharp_09_clausula_select_net6", "CursoCSharp_09_clausula_select_net6\CursoCSharp_09_clausula_select_net6.csproj", "{B734C98F-45B1-4BAE-86DE-F0BE33582134}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploEF_net6", "EjemploEF_net6\EjemploEF_net6.csproj", "{FABFE722-B55D-4645-AF3A-2ACE3BC9219C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploEF_net6", "EjemploEF_net6\EjemploEF_net6.csproj", "{FABFE722-B55D-4645-AF3A-2ACE3BC9219C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoCSharp_1_appservice_net6", "CursoCSharp_1_appservice_net6\CursoCSharp_1_appservice_net6.csproj", "{F7FDDE6B-7B60-4DF1-9485-CEF07816D05D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoCSharp_1_appservice_net6", "CursoCSharp_1_appservice_net6\CursoCSharp_1_appservice_net6.csproj", "{F7FDDE6B-7B60-4DF1-9485-CEF07816D05D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

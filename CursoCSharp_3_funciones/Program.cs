@@ -7,34 +7,36 @@ namespace CursoCSharp_3_funciones
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            string saludo = Saludo("Kristoffer", "Velazquez Martinez");
+            Console.WriteLine(saludo);
 
-            string saludo = Saludo("Pedro","Lopez");
         }
 
-        //se le pasan paremetros y devuelve un valor
+        // Se le pasan parametros y devuelve valor
         public static string Saludo(string nombre, string apellidos)
-        {
-            return "Mi nombre es: " + nombre + " " + apellidos;
+        {   
+            Metodo(); // Se llama al metodo dentro de una funcion 
+            return ($"Hola, mi nombre es: {nombre} {apellidos}");
         }
 
-        //Que solo ejecutan codigo
+        // Metodo: Solo ejecutan codigo
         public static void Metodo()
         {
-            Console.WriteLine("valor");
+            Console.WriteLine("Valor");
         }
 
-        //Devuelve valor pero no recibe valores
+        // Devuelve valor pero no recibe valores
         public static int FuncionSinParametros()
         {
-            return 7 + 9;
+            return 6 + 9;
         }
 
-        //metodo, que no devuelve valor y recibe parametros
-        public static void MetodoConParametros(string nombre,string apellido)
+        // Metodo que no devuelvevalor y recibe parametros
+        public static void MetodoConParametros(string nombre, string apellido)
         {
             Console.WriteLine(nombre + " " + apellido);
         }
 
-        
+
     }
 }

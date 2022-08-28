@@ -12,7 +12,7 @@ namespace CursoCSharp_4_Paso_valor_referencia
 
             //CambiarPorValor(numero1);
 
-            //Console.Write(numero1);
+            //Console.Write("\n" + numero1);
 
             //CambiarPorReferencia(ref numero1);
 
@@ -24,7 +24,7 @@ namespace CursoCSharp_4_Paso_valor_referencia
 
             Console.Write(numero1 + " " + numero2);
         }
-        
+
         //paso por valor
         public static void CambiarPorValor(int numero)
         {
@@ -38,10 +38,10 @@ namespace CursoCSharp_4_Paso_valor_referencia
         }
 
         //funcion que devuelve 2 valores
-        public static void Devuelve2ValoresPorReferencia(ref int numero1,ref int numero2)
+        public static void Devuelve2ValoresPorReferencia(ref int n1,ref int n2)
         {
-            numero1 = 10;
-            numero2 = 20;
+            n1 = 10;
+            n2 = 20;
         }
     }
 }

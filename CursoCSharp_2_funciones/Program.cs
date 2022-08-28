@@ -9,21 +9,23 @@ namespace CursoCSharp_2_funciones
             Console.WriteLine("Hello World!");
         }
 
-        //Procedimientos
-        void Procedimiento()
+        // ---Procedimientos---
+
+        // Void: Ejecutan codigo sin regresar ningun valor
+        public void Procedimiento()
         {
-            Console.Write("Esto es un procedimiento");
+            Console.WriteLine("Procedimiento publico");
+        }
+        
+        // ---Funciones---
+        // Funcion que regresa un numero valor 
+        int FunctionSuma()
+        {
+            return 0;
         }
 
-        //funciones
-        int FuncionSuma()
-        {
-            return 7;
-        }
+        // Procedimientos de propiedades 
 
-        //Procedimientos de propiedades
-
-        //Procedimientos de operador
-
+        // Procedimientos de operador
     }
 }

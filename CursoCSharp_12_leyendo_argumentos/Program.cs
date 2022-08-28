@@ -8,11 +8,9 @@ namespace CursoCSharp_12_leyendo_argumentos
         {
             Console.WriteLine("Hay " + args.Length + " elementos");
 
-            foreach (var argumentos in args)
-            {
-                Console.WriteLine(argumentos);
-            }
-
+            foreach (var arg in args) { Console.WriteLine(arg); }
         }
+
+        
     }
 }
