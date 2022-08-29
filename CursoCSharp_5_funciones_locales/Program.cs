@@ -7,7 +7,7 @@ namespace CursoCSharp_5_funciones_locales
     {
         static void Main(string[] args)
         {
-            //FuncionPrincipal(12);
+            FuncionPrincipal(Math.Abs(-12));
             EjemploFuncionLocal();
         }
 
@@ -41,10 +41,12 @@ namespace CursoCSharp_5_funciones_locales
                 Console.WriteLine(total);
             }
 
-            int Suma(int numero, int totalSuma)
-            {
-                return numero + totalSuma;
-            }
+            
+        }
+
+        public static int Suma(int numero, int totalSuma)
+        {
+            return numero + totalSuma;
         }
     }
 }
