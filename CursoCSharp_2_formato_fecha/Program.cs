@@ -17,6 +17,8 @@ namespace CursoCSharp_2_formato_fecha
             Console.WriteLine("ToShortTimeString: " + fecha.ToShortTimeString());
             Console.WriteLine("ToString: " + fecha.ToString());
             Console.WriteLine("ToUniversalTime: " + fecha.ToUniversalTime());
+            Console.WriteLine("ToFileTime: " + fecha.ToFileTime());
+
             Console.ReadLine();
 
 
