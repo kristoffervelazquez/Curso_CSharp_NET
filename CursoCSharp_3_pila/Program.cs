@@ -7,19 +7,22 @@ namespace CursoCSharp_3_pila
     {
         static void Main(string[] args)
         {
-            //LIFO last in first out   -->primero que entra, ultimo que sale
+            //LIFO last in first out   --> ultimo en entrar, primero en salir --> el primero que entra, es el ultimo en salir
             Stack pila = new Stack();
 
-            pila.Push(1);
-            pila.Push(5);
             pila.Push(10);
-            pila.Push(3);
+            pila.Push(20);
+            pila.Push(30);
+            pila.Push(40);
 
             //3 --> 10 --> 5 --> 1
 
-            var numero = pila.Pop();
-
+            var numero = pila.Pop(); // Regresa el valor de arriba del stack y lo elimina de la pila.
             Console.WriteLine(numero);
+            
+            numero = pila.Peek(); // Regresa el valor de arriba del stack sin quitarlo de la pila.
+            Console.WriteLine(numero);
+            Console.WriteLine("----");
             Console.ReadLine();
 
             foreach (var item in pila)
@@ -28,16 +31,16 @@ namespace CursoCSharp_3_pila
                 Console.ReadLine();
             }
 
-            //Contar elementos
-            int contador = pila.Count;
+            ////Contar elementos
+            //int contador = pila.Count;
 
-            //Limpiar la pila
-            pila.Clear();
+            ////Limpiar la pila
+            //pila.Clear();
 
-            if (pila.Contains(10))
-            {
-                Console.WriteLine("Contiene un 10");
-            }
+            //if (pila.Contains(10))
+            //{
+            //    Console.WriteLine("Contiene un 10");
+            //}
         }
     }
 }
