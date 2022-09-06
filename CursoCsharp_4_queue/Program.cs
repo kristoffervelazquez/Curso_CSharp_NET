@@ -8,7 +8,7 @@ namespace CursoCsharp_4_queue
         static void Main(string[] args)
         {
             //FIFO --> First In First Out  --> sale el primero que entra
-            Queue cola = new Queue();
+            Queue cola = new();
 
             cola.Enqueue(3);
             cola.Enqueue(5);
@@ -45,6 +45,8 @@ namespace CursoCsharp_4_queue
             int elementos = cola.Count;
             Console.WriteLine(elementos);
             Console.ReadLine();
+
+            cola.
 
             //recorrer cola
             foreach (var item in cola)
