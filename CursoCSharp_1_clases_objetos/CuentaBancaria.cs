@@ -11,6 +11,12 @@ namespace CursoCSharp_1_clases_objetos
         public int Saldo;
         public bool Estado = false;
 
+        // Ejemplo de constructor
+        //public CuentaBancaria(int saldo, bool estado)
+        //{
+        //    Saldo = saldo;
+        //    Estado = estado;
+        //}
 
         public void ActivarCuenta(int primerSaldo)
         {

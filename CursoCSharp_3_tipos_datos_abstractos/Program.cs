@@ -1,5 +1,4 @@
-﻿using CursoCSharp_3_abstraccion;
-using System;
+﻿using System;
 
 namespace CursoCSharp_3_tipos_datos_abstractos
 {
