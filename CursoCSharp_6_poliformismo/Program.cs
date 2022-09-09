@@ -7,23 +7,27 @@ namespace CursoCSharp_6_poliformismo
     {
         static void Main(string[] args)
         {
-            Gato gato = new Gato();
+            Gato gato = new();
             gato.HacerRuido();
 
-            Perro perro = new Perro();
+            Perro perro = new();
             perro.HacerRuido();
 
-            Lobo lobo = new Lobo();
+            Lobo lobo = new();
             lobo.HacerRuido();
+
+            Pez pez = new();
+            pez.HacerRuido();
 
             Console.Read();
 
-            List<Animal> zoo = new List<Animal>();
-            zoo.Add(gato);
-            zoo.Add(perro);
-            zoo.Add(lobo);
+            List<Animal> animales = new();
+            animales.Add(gato);
+            animales.Add(perro);
+            animales.Add(lobo);
+            animales.Add(pez);
 
-            foreach (var item in zoo)
+            foreach (var item in animales)
             {
                 item.HacerRuido();
             }

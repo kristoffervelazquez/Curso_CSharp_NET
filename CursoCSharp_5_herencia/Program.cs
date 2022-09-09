@@ -6,8 +6,7 @@ namespace CursoCSharp_5_herencia
     {
         static void Main(string[] args)
         {
-            Point3D point3d = new Point3D();
-            
+            Point3D point3d = new();
         }
     }
 }
