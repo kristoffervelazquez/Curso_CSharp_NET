@@ -46,7 +46,7 @@ namespace CursoCsharp_4_queue
             Console.WriteLine(elementos);
             Console.ReadLine();
 
-            cola.
+            cola.Clear();
 
             //recorrer cola
             foreach (var item in cola)

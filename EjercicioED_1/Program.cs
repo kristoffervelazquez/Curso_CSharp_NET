@@ -16,7 +16,7 @@ namespace EjercicioED_1
 
             List<int> lista = new List<int>();
 
-            int suma = 0;
+            var suma = 0;
 
             for (int i = 1; i <= 1000; i++)
             {
