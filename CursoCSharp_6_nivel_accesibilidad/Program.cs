@@ -7,11 +7,11 @@ namespace CursoCSharp_6_nivel_accesibilidad
     {
         static void Main(string[] args)
         {
-            ClaseDerivada clasedev = new ClaseDerivada();
-            clasedev.Nacionalidad = "Española";
-            clasedev.Nombre = "Alejandro";
-            clasedev.Telefono = "1122233";
-            clasedev.Sumar(6,7);
+            ClaseDerivada clasederiv = new();
+            clasederiv.Nacionalidad = "Mexicana"; 
+            clasederiv.Nombre = "Kristoffer";
+            clasederiv.Telefono = "123123123123123";
+            clasederiv.Sumar(69, 69);
         }
     }
 }

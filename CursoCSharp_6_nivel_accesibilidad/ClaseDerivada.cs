@@ -8,9 +8,10 @@ namespace CursoCSharp_7_nivel_accesibilidad
     {
         public ClaseDerivada()
         {
-            
-            //base.Edad = 15;
-            base.Apellidos = "Serrano";
+
+            //base.Edad = 15; // No se puede acceder porque es privada
+            base.Apellidos = "Perez";
+            base.Nombre = "Juan";
         }
     }
 }

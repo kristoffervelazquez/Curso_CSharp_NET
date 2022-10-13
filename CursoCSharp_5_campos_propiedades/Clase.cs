@@ -10,10 +10,10 @@ namespace CursoCSharp_5_campos_propiedades
         public int Campo;
         public string Nombre { get; set; }
         public string Apellidos { get; set; }
-        public int Edad { get; private set; }
+        public int Edad { get; private set; } // Set privado para que solo se pueda setear en cualquier lugar DENTRO DE LA CLASE.
         public int Estado = 1;
 
-        public readonly string Identificador = "XX";
+        public readonly string Identificador = "XX"; // Puedes asignarle el valor al declarar o en el constructor de la clase
 
         //Constructor
         public Clase()

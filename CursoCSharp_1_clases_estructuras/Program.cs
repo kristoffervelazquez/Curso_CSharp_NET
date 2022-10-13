@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CursoCSharp_1_clases_estructuras
+namespace CursoCSharp_01_clases_estructuras
 {
     class Program
     {
@@ -16,10 +16,11 @@ namespace CursoCSharp_1_clases_estructuras
             puntoStruct.Y = 7;
 
             SumaCoordenadas(punto);
+            // Este metodo no cambia los valores de la Estrucutra ya que el valor no se pasa por referencia.
             SumarCoordenadas(puntoStruct);
 
-            Console.WriteLine($"Suma de coordenadas clase: X={punto.X} Y={punto.Y}");
-            Console.WriteLine($"Suma de coordenadas struct: X={puntoStruct.X} Y={puntoStruct.Y}");
+            Console.WriteLine($"Suma de coordenadas clase: X={punto.X} Y={punto.Y}"); // valor x= 20, Y = 18 // Este
+            Console.WriteLine($"Suma de coordenadas struct: X={puntoStruct.X} Y={puntoStruct.Y}"); // valor X = 20, Y = 7
             Console.ReadKey();
         }
 

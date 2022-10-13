@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace CursoCSharp_1_clases_estructuras
+﻿namespace CursoCSharp_01_clases_estructuras
 {
     public struct PointStruct
     {
